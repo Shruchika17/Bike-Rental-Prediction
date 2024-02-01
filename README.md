@@ -2,7 +2,7 @@
 Bike Rental Prediction
 
 
-# Step 1: Load the Dataset and Relevant Libraries
+# Step 1: Load the  Relevant Libraries
 
 First, we'll load the necessary R libraries and the dataset. For this analysis, we'll need readxl to read the Excel file, dplyr for data manipulation, ggplot2 for data visualization, and randomForest for building the predictive model.
 
