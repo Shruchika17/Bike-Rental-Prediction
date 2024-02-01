@@ -82,5 +82,8 @@ print(performance)
 
 ###To evaluate the model, you could calculate metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or Mean Absolute Error (MAE). These metrics provide insight into the model's accuracy.
 
+actual <- testData$cnt
 mse <- mean((predictions - actual)^2)
 rmse <- sqrt(mse)
+print(mse)
+print(rmse)
