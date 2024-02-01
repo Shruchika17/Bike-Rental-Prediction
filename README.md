@@ -24,7 +24,7 @@ data <- read_excel("/path/to/your/file/1657875746_day.xlsx")
 Make sure to replace "/path/to/your/file/1657875746_day.xlsx" with the actual path where you've saved the dataset.
 
 # Step 2: Exploratory Data Analysis (EDA)
-Data Type Conversion
+# Data Type Conversion
 
 Check the structure of the dataset using str(data) and convert the data types if needed. For instance, converting dteday to a Date type and categorical variables to factors.
 
@@ -106,7 +106,7 @@ testData <- data[-trainIndex, ]
 
 model <- randomForest(cnt ~ . -instant -dteday, data = trainData)
 
-Step 6: Predict the Performance of the Model on the Test Dataset
+# Step 6: Predict the Performance of the Model on the Test Dataset
 
 predictions <- predict(model, testData)
 
