@@ -67,7 +67,7 @@ ggplot(data, aes(x = mnth, y = cnt)) +
 
 
 
-#Yearly Distribution of Total Bikes Rented
+# Yearly Distribution of Total Bikes Rented
 
 ggplot(data, aes(x = yr, y = cnt)) +
 
